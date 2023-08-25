@@ -3,7 +3,9 @@ local M = {}
 
 M.general = {
   n = {
-    [";"] = { ":", "enter command mode", opts = { nowait = true } },
+    [";"] = { ":", "Enter command mode", opts = { nowait = true } },
+    ["<A-a>"] = { "<C-o>", "Jump back", opts = { nowait = true } },
+    ["<A-d>"] = { "<C-i>", "Jump forward", opts = { nowait = true } },
   },
 }
 
