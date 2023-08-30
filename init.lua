@@ -11,3 +11,5 @@
 --   command = [[:%s/\s\+$//e]],
 --   group = augroup("TrimWhiteSpaceGrp", { clear = true }),
 -- })
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
