@@ -19,6 +19,8 @@ local sources = {
   b.formatting.clang_format,
 
   b.formatting.autopep8,
+
+  b.formatting.rustfmt
 }
 
 null_ls.setup {
