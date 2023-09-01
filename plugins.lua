@@ -63,6 +63,10 @@ local plugins = {
 
   -- To use a extras plugin
   -- { import = "custom.configs.extras.symbols-outline", },
+
+  {
+    "neomake/neomake"
+  }
 }
 
 return plugins
