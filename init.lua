@@ -13,3 +13,8 @@
 -- })
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+if vim.g.neovide then
+  vim.opt.guifont = "ComicShannsMono Nerd Font:h13"
+  vim.g.neovide_cursor_vfx_mode = "railgun"
+end
