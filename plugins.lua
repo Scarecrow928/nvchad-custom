@@ -65,7 +65,8 @@ local plugins = {
   -- { import = "custom.configs.extras.symbols-outline", },
 
   {
-    "neomake/neomake"
+    "neomake/neomake",
+    event = "BufEnter",
   }
 }
 
