@@ -17,4 +17,8 @@ vim.opt.smartcase = true
 if vim.g.neovide then
   vim.opt.guifont = "ComicShannsMono Nerd Font:h13"
   vim.g.neovide_cursor_vfx_mode = "railgun"
+elseif vim.g.vscode then
+  vim.keymap.set("n", ";", ":")
+  vim.keymap.set("n", "<A-a>", "<C-o>")
+  vim.keymap.set("n", "<A-d>", "<C-i>")
 end
