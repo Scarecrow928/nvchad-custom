@@ -13,6 +13,7 @@
 -- })
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+vim.opt.clipboard = "unnamedplus"
 
 if vim.g.neovide then
   vim.opt.guifont = "ComicShannsMono Nerd Font:h13"
