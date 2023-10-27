@@ -16,6 +16,8 @@ M.treesitter = {
     "rust",
     "markdown",
     "markdown_inline",
+    "bash",
+    "yaml"
   },
   indent = {
     enable = true,
@@ -35,8 +37,6 @@ M.mason = {
     "css-lsp",
     "html-lsp",
     "typescript-language-server",
-    "deno",
-    "prettier",
   },
 }
 
