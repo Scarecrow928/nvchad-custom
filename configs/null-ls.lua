@@ -20,7 +20,9 @@ local sources = {
 
   b.formatting.autopep8,
 
-  b.formatting.rustfmt
+  b.formatting.rustfmt,
+
+  b.formatting.diagnostics.ansiblelint,
 }
 
 null_ls.setup {
